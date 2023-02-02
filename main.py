@@ -14,7 +14,7 @@ if __name__ == "__main__":
     inputStr = input("Please provide numbers separated by a space you want to sort: ")
     arr = convertStrArrToIntArr(inputStr.split())
 
-    sortingAlgorithmChoice = input(f'Which Sorting Algorithm do you want to use?, You can use between: {" ".join(SORTING_ALGORITHMS.keys())} \n')
+    sortingAlgorithmChoice = input(f'Which Sorting Algorithm do you want to use?, You can use between: {", ".join(SORTING_ALGORITHMS.keys())} \n')
 
     if not sortingAlgorithmChoice in SORTING_ALGORITHMS:
         print(f'Sorting algortihm {sortingAlgorithmChoice} is not an option')
@@ -25,9 +25,4 @@ if __name__ == "__main__":
 
     print("Succesfully sorted the list")
     print(result)
-
-    
-
-
-
 

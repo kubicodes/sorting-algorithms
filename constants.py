@@ -1,5 +1,7 @@
 from quicksort import QuickSort
+from mergesort import MergeSort
 
 SORTING_ALGORITHMS = {
-    "Quicksort": QuickSort
+    "Quicksort": QuickSort,
+    "Mergesort": MergeSort
 }
